@@ -30,7 +30,9 @@ while True:
     if "exit" in game_state:
         custom_fig = Figlet(font='banner')
         print(custom_fig.renderText('THE END'))
-        print("Project Github: ")
+        print("Project Github: https://github.com/elimcgehee/coding-natural-lang-final")
+        print("Author's Website: https://www.elimcgehee.com/")
+        print(" ")
 
     time.sleep(5)
 
