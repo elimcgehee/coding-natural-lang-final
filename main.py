@@ -1,3 +1,5 @@
+from playsound import playsound
+playsound('audio.mp3', False)
 import markovify
 from story import *
 from banner import *
@@ -28,7 +30,7 @@ while True:
     print(" ")
     
     if "exit" in game_state:
-        custom_fig = Figlet(font='banner')
+        custom_fig = Figlet(font='univers')
         for i in range(10):
             print(" ")
         print(custom_fig.renderText('THE END'))
