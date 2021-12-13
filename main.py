@@ -26,9 +26,11 @@ while True:
     print(" ")
     print(game_state["message"])
     print(" ")
-
+    
     if "exit" in game_state:
         custom_fig = Figlet(font='banner')
+        for i in range(10):
+            print(" ")
         print(custom_fig.renderText('THE END'))
         print("Project Github: https://github.com/elimcgehee/coding-natural-lang-final")
         print("Author's Website: https://www.elimcgehee.com/")
