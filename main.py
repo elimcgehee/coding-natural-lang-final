@@ -31,7 +31,7 @@ while True:
     
     if "exit" in game_state:
         custom_fig = Figlet(font='univers')
-        for i in range(10):
+        for i in range(6):
             print(" ")
         print(custom_fig.renderText('THE END'))
         print("Project Github: https://github.com/elimcgehee/coding-natural-lang-final")
